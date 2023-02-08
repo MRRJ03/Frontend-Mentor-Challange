@@ -1,0 +1,129 @@
+body{
+  text-align: center;
+background-color: white;
+}
+
+.bigbox{
+  background-color: blanchedalmond;
+  height: 650px;
+  width: 1300px;
+  margin: auto;
+  margin-top: 75px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3); 
+}
+
+.mainbox{
+  position: relative;
+  top: 110px;
+  background-color: aliceblue;
+  height: 375px;
+  width: 500px;
+  margin: auto;
+  border-top-right-radius: 12px 12px;
+  border-bottom-right-radius: 12px 12px;
+  border-top-left-radius: 12px 12px;
+  border-bottom-left-radius: 12px 12px;
+
+}
+
+.product{
+  width: 20%;
+  position: absolute;
+  right: 145px;
+  margin-top: 6px;
+  font-size: x-small;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size:x-small;
+}
+
+.img{
+  width: 50%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin-right: 10px;
+  border-top-left-radius: 12px 12px;
+  border-bottom-left-radius: 12px 12px;
+
+}
+
+h1{
+  width: 43%;
+  position: absolute;
+  right: 0px;
+  text-align: left;
+  margin-right: 15px;
+  line-height: none;
+  font-family: 'Fraunces', serif;
+}
+
+.para{
+  width: 40%;
+  text-align: left;
+  position: absolute;
+  margin: 150px 8px 0px 275px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.price{
+  width: 50%;
+  font-size: xx-large;
+  text-align: center;
+  position: absolute;
+  right: 55px;
+  bottom: 55px;
+  font-weight: 700;
+  color: #2A9D8F;
+  font-family: 'Fraunces', serif;
+}
+
+.price2{
+  width: 15%;
+  text-align: center;
+  position: absolute;
+  right: 45px;
+  bottom: 82px;
+  text-decoration-line: line-through;
+  line-height: normal;
+  font-family: 'Fraunces', serif;
+}
+
+.order{
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  right: 25px;
+  bottom: 150px;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #2A9D8F;
+  padding: 9px 37px 9px 37px;
+  text-decoration: whitesmoke;
+}
+
+.btn{
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+.attribution{
+  position: relative;
+  bottom: 50px;
+  margin: auto;
+  width: 30%;
+  top: 130px;
+}
